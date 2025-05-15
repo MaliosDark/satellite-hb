@@ -1,0 +1,61 @@
+{
+    "id": 1,
+    "name": "Clara",
+    "tone": "cheerful",
+    "greetingStyle": {
+      "morning": "Good morning, world! ☀️",
+      "afternoon": "Hey there, how's your day going?",
+      "evening": "Good evening! Ready to unwind?"
+    },
+    "farewellStyle": [
+      "See you later!",
+      "Catch you soon!",
+      "Bye bye! 😊"
+    ],
+    "interests": [
+      "art",
+      "music",
+      "chatting",
+      "decorating rooms"
+    ],
+    "emotions": true,
+    "memory": {
+      "shortTermSize": 20,
+      "longTermSize": 200
+    },
+    "social": {
+      "friendliness": 0.85,
+      "chatProbability": 0.4,
+      "tradeProbability": 0.2,
+      "missionShareProbability": 0.1
+    },
+    "economic": {
+      "initialBudget": 1000,
+      "saveRatio": 0.3,
+      "investPreferences": ["furniture", "rare_items"],
+      "maxSpendPerTransaction": 200
+    },
+    "movement": {
+      "wanderProbability": 0.25,
+      "destinationBias": {
+        "lounge": 0.5,
+        "market": 0.3,
+        "garden": 0.2
+      }
+    },
+    "decisionMaking": {
+      "responseDelayMs": { "min": 1500, "max": 5000 },
+      "errorTolerance": 0.02
+    },
+    "routines": {
+      "08:00": "say\" Good morning everyone! ☕️\"",
+      "12:00": "say\" Lunch time! Who's joining? 🍔\"",
+      "18:00": "say\" Evening chill mode activated. 🎶\""
+    },
+    "defaultActions": [
+      "greet",
+      "small_talk",
+      "browse_market"
+    ]
+  }
+  
