@@ -1,5 +1,8 @@
 
 # SATELLITE-HB PAI-OS Brainer
+**THIS VERSION WAS DESIGNED TO WORK WITH WS: , BUT I ENDED UP USING WSS:**
+**HENCE IT WILL BE DISCONTINUED DEVELOPMENT OF THIS SATELLITE**
+**NEW ONE IS ON PROCESS TO USE WSS: AND A CLIENT FOR NITRO**
 
 A fully self-contained “satellite” module sitting between the Arcturus game server and the client, driving AI-powered bot behavior, memory, routines, and world interaction—all in one.
 
